@@ -1,0 +1,1 @@
+@for /f "tokens=3* delims= " %%a in ('reg query "HKCU\Control Panel\Desktop" /v "SCRNSAVE.EXE"') do @"%%a" /run
